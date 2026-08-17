@@ -1,0 +1,28 @@
+{
+  "stage": "07_coastal_communications_capstone",
+  "title": "Coastal Communications Cooperative",
+  "difficulty": "Stage 7 \u2014 Advanced Enterprise Capstone",
+  "tables": {
+    "members": 2016,
+    "addresses": 2000,
+    "accounts": 2500,
+    "plan_history": 3216,
+    "bills": 38314,
+    "payments": 34866,
+    "adjustments": 3065,
+    "service_orders": 3500,
+    "service_order_events": 10068,
+    "devices": 3000,
+    "device_status_history": 6000,
+    "outages": 300,
+    "account_balance_snapshots": 35100
+  },
+  "formats": [
+    "csv",
+    "json",
+    "sqlite",
+    "postgresql_schema",
+    "sqlserver_schema"
+  ],
+  "notes": "A fictional telecommunications cooperative used as the final academic simulation before the real electric-cooperative internship. Some documentation is intentionally incomplete on the student side."
+}
