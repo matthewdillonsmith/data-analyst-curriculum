@@ -1,0 +1,18 @@
+{
+  "stage": "06_smart_campus_timeseries",
+  "title": "Smart Campus Energy & Sensor Data",
+  "difficulty": "Stage 6 \u2014 Advanced / Time Series & IoT",
+  "tables": {
+    "buildings": 3,
+    "sensors": 12,
+    "sensor_readings": 50611
+  },
+  "formats": [
+    "csv",
+    "json",
+    "sqlite",
+    "postgresql_schema",
+    "sqlserver_schema"
+  ],
+  "notes": "15-minute smart-building data spanning both 2026 U.S. DST transitions, with missing intervals, duplicate records, sentinel values, impossible readings, and outliers."
+}

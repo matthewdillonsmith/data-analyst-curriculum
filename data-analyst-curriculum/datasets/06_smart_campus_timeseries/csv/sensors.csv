@@ -1,0 +1,13 @@
+sensor_id,building_id,sensor_name,sensor_type,installed_date
+1001,1,B01-S1001,environment_energy,2025-01-15
+1002,1,B01-S1002,environment_energy,2025-01-15
+1003,1,B01-S1003,environment_energy,2025-01-15
+1004,1,B01-S1004,environment_energy,2025-01-15
+1005,2,B02-S1005,environment_energy,2025-01-15
+1006,2,B02-S1006,environment_energy,2025-01-15
+1007,2,B02-S1007,environment_energy,2025-01-15
+1008,2,B02-S1008,environment_energy,2025-01-15
+1009,3,B03-S1009,environment_energy,2025-01-15
+1010,3,B03-S1010,environment_energy,2025-01-15
+1011,3,B03-S1011,environment_energy,2025-01-15
+1012,3,B03-S1012,environment_energy,2025-01-15
