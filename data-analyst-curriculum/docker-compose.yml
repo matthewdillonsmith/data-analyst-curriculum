@@ -1,0 +1,9 @@
+services:
+  curriculum-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      CURRICULUM_DATA_ROOT: /app/datasets
+    volumes:
+      - ./datasets:/app/datasets:ro
