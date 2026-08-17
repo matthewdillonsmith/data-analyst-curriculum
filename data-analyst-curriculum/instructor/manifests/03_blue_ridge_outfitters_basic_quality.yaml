@@ -1,0 +1,31 @@
+stage: 03_blue_ridge_outfitters_basic_quality
+title: "Blue Ridge Outfitters \u2014 Raw"
+difficulty: "Stage 3 \u2014 Early Intermediate / Basic Data Quality"
+row_counts:
+  customers: 1012
+  categories: 12
+  products: 150
+  warehouses: 5
+  orders: 4000
+  order_items: 10003
+  payments: 4000
+  shipments: 3521
+teaching_goal: Students must profile, clean, normalize, and validate before analyzing.
+known_quality_defects:
+- missing_email
+- missing_phone
+- inconsistent_state_values
+- duplicate_customer_entities
+- mixed_customer_date_formats
+- inconsistent_order_status
+- orphan_orders
+- dirty_unit_price_values
+ground_truth:
+  missing_email: 30
+  missing_phone: 60
+  inconsistent_state_values: 25
+  duplicate_customer_entities: 12
+  mixed_customer_date_formats: 20
+  inconsistent_order_status: 100
+  orphan_orders: 12
+  dirty_unit_price_values: 80

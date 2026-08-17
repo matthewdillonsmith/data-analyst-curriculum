@@ -1,0 +1,52 @@
+stage: 07_coastal_communications_capstone
+title: Coastal Communications Cooperative
+difficulty: "Stage 7 \u2014 Advanced Enterprise Capstone"
+row_counts:
+  members: 2016
+  addresses: 2000
+  accounts: 2500
+  plan_history: 3216
+  bills: 38314
+  payments: 34866
+  adjustments: 3065
+  service_orders: 3500
+  service_order_events: 10068
+  devices: 3000
+  device_status_history: 6000
+  outages: 300
+  account_balance_snapshots: 35100
+teaching_goal: 'Enterprise capstone: ambiguous definitions, SCD history, snapshots,
+  late-arriving data, duplicate imports, operational codes, multiple business systems,
+  and incomplete documentation.'
+known_quality_defects:
+- duplicate_member_entities
+- duplicate_bill_imports
+- closed_accounts_missing_end_date
+- late_arriving_payments
+ground_truth:
+  duplicate_member_entities: 16
+  duplicate_bill_imports: 228
+  closed_accounts_missing_end_date: 19
+  late_arriving_payments: 522
+business_definition_conflicts:
+  active_member_finance: Member with at least one account whose billing_status_cd
+    = ACTIVE
+  active_member_marketing: Member with a bill in the prior 12 months
+  active_member_operations: Member with at least one installed network device tied
+    to an account
+code_mappings_instructor_only:
+  members.crm_status_cd:
+    A: Active
+    I: Inactive
+    P: Prospect
+  service_orders.status_cd:
+    O: Open
+    C: Complete
+    X: Cancelled
+  service_order_events.event_cd:
+    CRT: Created
+    ASN: Assigned
+    CMP: Completed
+    CAN: Cancelled
+snapshot_warning: account_balance_snapshots is point-in-time data; balances must not
+  be summed across snapshot dates to represent a period total.

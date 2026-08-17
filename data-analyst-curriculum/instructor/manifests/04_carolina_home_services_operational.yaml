@@ -1,0 +1,30 @@
+stage: 04_carolina_home_services_operational
+title: Carolina Home Services
+difficulty: "Stage 4 \u2014 Intermediate / Messy Operational Events"
+row_counts:
+  customers: 1500
+  service_locations: 1800
+  technicians: 80
+  service_types: 12
+  work_orders: 4000
+  technician_assignments: 4000
+  work_order_events: 19690
+  appointments: 4000
+  parts: 200
+  work_order_parts: 6004
+  invoices: 3333
+  payments: 3019
+teaching_goal: Operational event data, workflow reconstruction, cycle-time analysis,
+  grain, and join multiplication.
+known_quality_defects:
+- missing_completion_events
+- duplicate_work_order_events
+- out_of_sequence_events
+- reopened_work_orders
+ground_truth:
+  missing_completion_events: 49
+  duplicate_work_order_events: 78
+  out_of_sequence_events: 33
+  reopened_work_orders: 39
+important_teaching_trap: Joining work_order_events and work_order_parts directly at
+  detail grain multiplies rows.

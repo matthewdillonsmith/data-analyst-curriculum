@@ -1,0 +1,31 @@
+stage: 05_piedmont_logistics_multisource
+title: Piedmont Logistics
+difficulty: "Stage 5 \u2014 Upper Intermediate / Multi-Source Integration"
+row_counts:
+  customers: 2000
+  customer_master: 2000
+  warehouses: 10
+  drivers: 120
+  vehicles: 100
+  shipments: 5000
+  delivery_events: 20000
+  fuel_transactions: 8032
+  gps_events: 10000
+teaching_goal: Multi-source integration, source-of-truth reasoning, identifier normalization,
+  files + database + API-style JSON.
+known_quality_defects:
+- crm_vs_billing_state_conflicts
+- duplicate_fuel_transactions
+- missing_shipment_driver_ids
+- vehicle_identifier_format_mismatch
+ground_truth:
+  crm_vs_billing_state_conflicts: 50
+  duplicate_fuel_transactions: 32
+  missing_shipment_driver_ids: 30
+  vehicle_identifier_formats:
+  - '1000'
+  - TRK1000
+  - TRK-1000
+source_semantics:
+  customers.billing_state: Billing/service state
+  customer_master.crm_state: CRM mailing state

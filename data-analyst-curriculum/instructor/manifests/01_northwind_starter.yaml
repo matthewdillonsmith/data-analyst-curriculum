@@ -1,0 +1,16 @@
+stage: 01_northwind_starter
+title: Northwind-Style Starter Dataset
+difficulty: "Stage 1 \u2014 Absolute Beginner / Clean"
+row_counts:
+  categories: 8
+  products: 40
+  customers: 120
+  employees: 10
+  orders: 500
+  order_details: 1518
+teaching_goal: Absolute beginner relational data. Intentionally clean.
+known_quality_defects: []
+ground_truth:
+  intentional_duplicates: 0
+  intentional_orphans: 0
+  intentional_nulls: 0

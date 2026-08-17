@@ -1,0 +1,31 @@
+stage: 06_smart_campus_timeseries
+title: Smart Campus Energy & Sensor Data
+difficulty: "Stage 6 \u2014 Advanced / Time Series & IoT"
+row_counts:
+  buildings: 3
+  sensors: 12
+  sensor_readings: 50611
+teaching_goal: Time-series validation, high-volume data, missing intervals, duplicate
+  intervals, time zones, DST, sensor anomalies, and anomaly-vs-error judgment.
+known_quality_defects:
+- random_missing_intervals
+- duplicate_sensor_intervals
+- temperature_sentinel_values
+- humidity_over_100_pct
+- negative_kw_values
+- extreme_kw_spikes
+- rows_in_duplicated_local_fall_hour
+- spring_forward_local_2am_rows
+ground_truth:
+  random_missing_intervals: 152
+  duplicate_sensor_intervals: 75
+  temperature_sentinel_values: 40
+  humidity_over_100_pct: 30
+  negative_kw_values: 20
+  extreme_kw_spikes: 20
+  rows_in_duplicated_local_fall_hour: 245
+  spring_forward_local_2am_rows: 0
+time_zone: America/New_York
+dst_instruction: local_timestamp intentionally becomes non-unique during fall back;
+  utc_timestamp remains unambiguous. Spring-forward 02:00 local time is absent by
+  design.

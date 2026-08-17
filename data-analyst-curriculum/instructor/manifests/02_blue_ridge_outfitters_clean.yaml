@@ -1,0 +1,17 @@
+stage: 02_blue_ridge_outfitters_clean
+title: "Blue Ridge Outfitters \u2014 Clean"
+difficulty: "Stage 2 \u2014 Beginner / Clean Modern Business"
+row_counts:
+  customers: 1000
+  categories: 12
+  products: 150
+  warehouses: 5
+  orders: 4000
+  order_items: 10003
+  payments: 4000
+  shipments: 3521
+teaching_goal: Modern clean business data for Excel, SQL, statistics, and first Power
+  BI work.
+known_quality_defects: []
+ground_truth:
+  intentional_defects: 0
