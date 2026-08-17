@@ -1,0 +1,27 @@
+{
+  "stage": "04_carolina_home_services_operational",
+  "title": "Carolina Home Services",
+  "difficulty": "Stage 4 \u2014 Intermediate / Messy Operational Events",
+  "tables": {
+    "customers": 1500,
+    "service_locations": 1800,
+    "technicians": 80,
+    "service_types": 12,
+    "work_orders": 4000,
+    "technician_assignments": 4000,
+    "work_order_events": 19690,
+    "appointments": 4000,
+    "parts": 200,
+    "work_order_parts": 6004,
+    "invoices": 3333,
+    "payments": 3019
+  },
+  "formats": [
+    "csv",
+    "json",
+    "sqlite",
+    "postgresql_schema",
+    "sqlserver_schema"
+  ],
+  "notes": "A service-company operational dataset with event histories, reopened jobs, missing completion events, duplicate events, and many-to-many join risks."
+}

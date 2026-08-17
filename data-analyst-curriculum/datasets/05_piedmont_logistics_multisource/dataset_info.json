@@ -1,0 +1,24 @@
+{
+  "stage": "05_piedmont_logistics_multisource",
+  "title": "Piedmont Logistics",
+  "difficulty": "Stage 5 \u2014 Upper Intermediate / Multi-Source Integration",
+  "tables": {
+    "customers": 2000,
+    "customer_master": 2000,
+    "warehouses": 10,
+    "drivers": 120,
+    "vehicles": 100,
+    "shipments": 5000,
+    "delivery_events": 20000,
+    "fuel_transactions": 8032,
+    "gps_events": 10000
+  },
+  "formats": [
+    "csv",
+    "json",
+    "sqlite",
+    "postgresql_schema",
+    "sqlserver_schema"
+  ],
+  "notes": "A logistics company spread across an operational database, customer-master CSV, fuel CSV, and GPS API-style JSON. Students must normalize IDs and resolve source-of-truth questions."
+}

@@ -1,0 +1,13 @@
+service_type_id,service_type_name,target_hours
+1,HVAC Repair,8
+2,HVAC Install,72
+3,HVAC Preventive Maintenance,168
+4,Electrical Repair,8
+5,Panel Upgrade,120
+6,Generator Service,72
+7,Plumbing Repair,8
+8,Water Heater,48
+9,Drain Service,8
+10,Inspection,96
+11,Emergency Call,4
+12,Warranty Follow-up,72
