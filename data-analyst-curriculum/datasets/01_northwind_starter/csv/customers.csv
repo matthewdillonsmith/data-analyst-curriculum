@@ -1,0 +1,121 @@
+customer_id,company_name,contact_name,city,state,country
+C0001,"Boone, Kerr and Ryan",Anthony Gordon,West Todd,TN,USA
+C0002,Murphy Group,Corey Davis,Jamesmouth,VA,USA
+C0003,Walsh Group,Arthur Mcdonald,North Denise,GA,USA
+C0004,"Frazier, Ortega and Khan",James Henderson,Garnerchester,GA,USA
+C0005,Wiggins and Sons,Haley Johnson,Albertshire,NC,USA
+C0006,Duke Group,Austin Hernandez,Peggyshire,SC,USA
+C0007,Jackson-Anthony,Sheena White,North Cameronshire,NC,USA
+C0008,Ferguson-Park,Robert Lowe,Sparksberg,NC,USA
+C0009,"White, Sparks and Rojas",Jill Preston,North Susan,VA,USA
+C0010,Morgan-Jones,Melissa Bell,East Joshuamouth,GA,USA
+C0011,Ramirez and Sons,Dan Rodriguez,Johnview,TN,USA
+C0012,"Rowland, Thompson and Smith",Louis Rios,Port Matthewview,VA,USA
+C0013,Guerrero-Tran,Felicia Giles,Michaelstad,TN,USA
+C0014,Morales-Brown,Austin Hernandez,East Matthewstad,VA,USA
+C0015,West Ltd,Michael Morrow,East Stephen,NC,USA
+C0016,"Flores, Lowe and Navarro",Jeffrey Gibson,Karenbury,NC,USA
+C0017,Lane LLC,Jessica Estrada,Angelaborough,TN,USA
+C0018,Mejia Group,Lisa Larsen,South Saraview,VA,USA
+C0019,"Best, Freeman and Trujillo",Amanda Berg,Lake Christophermouth,SC,USA
+C0020,Meyer-Jones,William Rodriguez,East Michaelside,NC,USA
+C0021,Jarvis Ltd,Christopher Blair,South Derrick,SC,USA
+C0022,Kemp Ltd,Melinda Beard,New Allisontown,TN,USA
+C0023,Winters-Romero,Matthew Velez,North Vanessamouth,NC,USA
+C0024,"Duncan, Marks and Austin",Donald Molina,North Keithhaven,SC,USA
+C0025,Andersen LLC,Christopher Carey,Hernandezmouth,SC,USA
+C0026,"Johnson, Torres and Hurst",Curtis Hernandez,South Scott,GA,USA
+C0027,Henson Inc,Cheryl Waters,West Alicia,SC,USA
+C0028,Avila Group,Kevin Bates,Kimberlymouth,VA,USA
+C0029,"Peck, Baker and Baird",Eric Thompson,West Timothyton,NC,USA
+C0030,Williams-Brown,Calvin Andersen,Lake Jacobmouth,VA,USA
+C0031,Wood-Underwood,Kyle Nash,Port Frank,VA,USA
+C0032,"Freeman, Gillespie and Fisher",Amber Moreno,Port Heatherport,SC,USA
+C0033,Garrett-Hanson,Tony Sanchez,Port Scott,GA,USA
+C0034,Price PLC,Anne Weaver,Nelsonstad,NC,USA
+C0035,Martin-Jones,Sharon Farrell,Singhburgh,NC,USA
+C0036,"Brown, Figueroa and Silva",David Baldwin,New Jennifer,GA,USA
+C0037,"Bradley, Koch and Whitney",Monique Miller,North Anita,GA,USA
+C0038,Wilson-Hernandez,Mr. Charles Moore MD,East Michaelland,NC,USA
+C0039,"King, Barnett and Smith",Christopher Hall,Lake Michelle,VA,USA
+C0040,Sanchez-Huffman,Raymond Carpenter,Shelbyfurt,SC,USA
+C0041,Perez-Turner,Kelli Henderson,Lake Sabrina,VA,USA
+C0042,"Spence, Gray and Rose",Penny White,South Trevor,TN,USA
+C0043,"Clark, Garcia and Perry",Shelley Mcdowell,West Gregoryberg,NC,USA
+C0044,"Larson, Sullivan and Nielsen",Lisa Mcdaniel,Port Patricia,SC,USA
+C0045,"Carson, Patton and Thompson",Jacob Love,Port Misty,GA,USA
+C0046,"Rice, Lyons and Hall",Adam Marshall,West Natasha,SC,USA
+C0047,Jones-Barnett,Thomas Dominguez,Tonyland,TN,USA
+C0048,Bailey-Murphy,Bradley Cardenas,Evansview,GA,USA
+C0049,Thompson PLC,Victor Black,Josephshire,VA,USA
+C0050,Wilkerson and Sons,Luis Villa,Caldwellport,SC,USA
+C0051,Hudson-Burgess,Jordan Casey,South Whitney,GA,USA
+C0052,Parker and Sons,Gary Jackson,Christopherside,SC,USA
+C0053,Hernandez-Smith,Michael Rice,Cynthiafurt,TN,USA
+C0054,Stevens Inc,Steven Hughes,Jessicaland,SC,USA
+C0055,"Rodriguez, Parker and Harrison",Jennifer Moore,South Erik,NC,USA
+C0056,Meyer and Sons,Leslie Lopez,Ochoamouth,GA,USA
+C0057,Preston LLC,William Rubio,North Karen,SC,USA
+C0058,"May, Newton and Foley",Timothy Padilla,Tammyton,NC,USA
+C0059,Johnson-Jackson,Miranda Velazquez,East James,TN,USA
+C0060,Blair and Sons,James Nicholson,Lindaland,SC,USA
+C0061,Palmer Group,Matthew Ortega,Lake Julie,TN,USA
+C0062,"Elliott, Bryant and Martinez",Jerry Everett,North Abigail,TN,USA
+C0063,"Fowler, Espinoza and Anderson",David Miller,Lake Jasonbury,TN,USA
+C0064,Allison-West,Whitney Hale,Katrinabury,GA,USA
+C0065,Carter-Williams,Shannon Zuniga,Port Alexton,SC,USA
+C0066,Page Inc,Tracy Moran,Kentport,VA,USA
+C0067,"Brown, Lara and Brown",Marie Rodriguez,Mayville,TN,USA
+C0068,Murphy-Moore,Jeffrey Obrien,West Ashley,SC,USA
+C0069,Sims Group,Danielle Johnson,East Laurie,GA,USA
+C0070,White Group,Steven Roberts,Wallerstad,NC,USA
+C0071,King-Sanchez,Kyle Morgan,New Henrybury,GA,USA
+C0072,Russell PLC,Phyllis Mason,Lake Susan,TN,USA
+C0073,King-Saunders,Travis Haynes,South April,NC,USA
+C0074,King and Sons,Nicholas Taylor,Aguirreport,TN,USA
+C0075,"Jones, Rodriguez and Roberts",Juan Cortez,South Christian,NC,USA
+C0076,Cox LLC,Vanessa Vasquez,South Krista,TN,USA
+C0077,"Jenkins, Gonzalez and Eaton",Victoria Fowler,Gwendolynburgh,VA,USA
+C0078,Haley-Nunez,William Cline,Lambville,VA,USA
+C0079,Hill Group,Sean Wolfe,Robbinsmouth,NC,USA
+C0080,Fletcher Ltd,Barbara Hernandez,Burgessfort,VA,USA
+C0081,Parker-Stone,Andrew Brown,Markbury,SC,USA
+C0082,Scott-Dickerson,James Stephens,Morrowhaven,SC,USA
+C0083,Patel-Bennett,Jenny Richardson,Simpsonfort,NC,USA
+C0084,"Bolton, Avila and Moran",Angela Warner,North Rhondabury,TN,USA
+C0085,Walker-Patton,Patrick Walker,Lake Joshua,NC,USA
+C0086,King-Chapman,Jessica Calhoun,East Ashleyton,VA,USA
+C0087,Thomas-Walsh,Jason Powell,New Amanda,VA,USA
+C0088,"Harris, Bishop and Wilson",Wesley Shaw,Port Lynn,SC,USA
+C0089,Barnes-Young,Daniel Crawford,South Stephen,NC,USA
+C0090,Flores-Deleon,Carol Blair,Michaelfort,SC,USA
+C0091,"Green, Guzman and Cisneros",Cheryl Brown,South Christopherstad,SC,USA
+C0092,"Griffin, Powell and Walker",Dustin Smith,Jamesfort,SC,USA
+C0093,"Brandt, Johnston and Soto",Rebecca Winters,Timborough,VA,USA
+C0094,"Jensen, Thompson and Williams",Ms. Erin Wyatt MD,Danaberg,GA,USA
+C0095,Hunt and Sons,Adam Cantu,South Susanport,TN,USA
+C0096,Brady-Marsh,Krystal Simmons,Port Mary,GA,USA
+C0097,"Knox, Reese and Garcia",Jillian Vaughan,Sandraburgh,TN,USA
+C0098,"Nguyen, Griffin and Hill",Michelle Watkins,North Jenniferland,NC,USA
+C0099,"Cortez, Taylor and Russell",Jennifer Luna,North Theresa,GA,USA
+C0100,Bailey and Sons,Paul Garcia,Joannaburgh,TN,USA
+C0101,Allen Inc,Katrina Smith,Port Russell,GA,USA
+C0102,Dudley Ltd,Melissa Roberts,Tinaville,GA,USA
+C0103,"Hall, Garcia and Powell",Dean Wright,North Amy,NC,USA
+C0104,Smith-Cruz,Meghan Scott,Douglasland,TN,USA
+C0105,Cook-Bailey,Kurt Vaughn,Maxwellhaven,VA,USA
+C0106,Brown-Schroeder,Richard Thomas,North Leslie,NC,USA
+C0107,Medina-Perez,Cheryl Payne,West Markshire,TN,USA
+C0108,Bell Ltd,Jessica Roth,Manuelport,NC,USA
+C0109,"Collins, Shelton and Soto",Brenda Flores,Phillipsport,SC,USA
+C0110,Marshall Group,Brandon Moreno,North Michaelbury,GA,USA
+C0111,Wise-Lopez,Sheila Leonard,Willismouth,SC,USA
+C0112,Tate Ltd,Gavin Martinez,Port John,TN,USA
+C0113,"Torres, Baldwin and Briggs",Michelle Jones,East Justinside,NC,USA
+C0114,Sullivan-Wiggins,Ruth Morgan,Williammouth,SC,USA
+C0115,"Hicks, Tapia and Cook",Rebekah Robinson,Tylerhaven,GA,USA
+C0116,"Jordan, Reed and Cooley",Kathryn Skinner,New Nathan,NC,USA
+C0117,Schwartz Group,John Wright,West Alyssa,SC,USA
+C0118,Richardson Inc,Jeffrey Johnson,Heidishire,SC,USA
+C0119,Mcdaniel-Whitehead,Devin Wilson,Youngborough,GA,USA
+C0120,"Swanson, Snyder and Cervantes",Felicia Ward,Dawsonmouth,TN,USA

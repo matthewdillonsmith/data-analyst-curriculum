@@ -1,0 +1,21 @@
+{
+  "stage": "01_northwind_starter",
+  "title": "Northwind-Style Starter Dataset",
+  "difficulty": "Stage 1 \u2014 Absolute Beginner / Clean",
+  "tables": {
+    "categories": 8,
+    "products": 40,
+    "customers": 120,
+    "employees": 10,
+    "orders": 500,
+    "order_details": 1518
+  },
+  "formats": [
+    "csv",
+    "json",
+    "sqlite",
+    "postgresql_schema",
+    "sqlserver_schema"
+  ],
+  "notes": "A synthetic Northwind-style teaching dataset for SQL/Excel fundamentals. It is not Microsoft's original Northwind data, but uses the same beginner-friendly retail concepts. Faculty may substitute the official Northwind sample database while keeping the Stage 1 exercises."
+}
